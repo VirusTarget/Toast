@@ -16,8 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    toast *to = [[toast alloc ]initWithString:@"66666666666666"];
-    [self.view addSubview:to];
+}
+- (IBAction)show {
+    toastString(@"1111111");
 }
 
 - (void)didReceiveMemoryWarning {
